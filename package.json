@@ -2,7 +2,7 @@
   "name": "typescript-interview-command-line-starter-kit",
   "version": "0.1.0",
   "devDependencies": {
-    "@types/node": "^20.12.12"
+    "@types/node": "^20.19.7"
   },
    "license": "MIT"
 }
