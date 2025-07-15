@@ -6,3 +6,5 @@ package.json
 yarn.lock
 package-lock.json
 .theia/
+# Ignore all node_modules folders
+**/node_modules/
