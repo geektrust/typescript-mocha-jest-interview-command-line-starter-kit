@@ -6,7 +6,11 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
-    "typeRoots": [ "./node_modules/@types", "/usr/local/share/.config/yarn/global/node_modules/@types" ]
+    "typeRoots": [ 
+      "./node_modules/@types",
+      "/usr/lib/node_modules/@types", 
+      "/usr/local/share/.config/yarn/global/node_modules/@types" 
+    ]
   },
   "lib": [
     "es2015"
