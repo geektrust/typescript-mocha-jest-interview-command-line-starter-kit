@@ -6,5 +6,10 @@ package.json
 yarn.lock
 package-lock.json
 .theia/
+.vscode/
 # Ignore all node_modules folders
 **/node_modules/
+.gtconfig/
+.mocharc.json
+jest.config.js
+dist/
