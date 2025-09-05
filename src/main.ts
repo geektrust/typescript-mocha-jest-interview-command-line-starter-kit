@@ -5,11 +5,13 @@ function main() {
         throw new Error("No command line arguments passed")
     }
     /*
-    * Format of the 'args' array: [`<COMMAND_NAME_1> <ARG1> <ARG2> .. <ARG N>`, `<COMMAND_NAME_2> <ARG1> <ARG2> .. <ARG N>`]
-    *  Example: ["PLACE_ORDER 101 Apple 5", "TOTAL_COST 101"]
+    * Format of the 'args' array: [
+    *  <COMMAND_NAME_1> <ARG1> <ARG2> .. <ARG N>, 
+    *  <COMMAND_NAME_2> <ARG1> <ARG2> .. <ARG N>
+    *]
     *
     * The code evaluator will execute this code by using the command
-    * node main.js 'PLACE_ORDER 101 Apple 5' 'TOTAL_COST 101'
+    * node main.js 'COMMAND_NAME_1 ARG1 ARG2 ARG3' 'COMMAND_NAME_2 ARG1'
     *
     * We loop through the list of commands passed in as input arguments and handle each one of them
     */
